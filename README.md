@@ -29,9 +29,7 @@ This will show all the files under your private folder.
 
 2. Copy the sh file to your private folder '/home/yourname/' and run it with 
  ```
-
 sh Anaconda3-2021.05-Linux-x86_64.sh 
-
 ```
 
 3. After sucessful installation, input 
