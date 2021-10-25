@@ -13,7 +13,7 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 2. Open MobaXtern 
 
 3. Click session->ssh; remote host is  172.26.136.118, username is your name. Then you shall be connected. See picture below.
-[pic]{./images/moba.png} 
+[pic](images/moba.png) 
 
 
 5. In the command line, input 
