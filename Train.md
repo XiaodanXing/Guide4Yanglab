@@ -78,19 +78,74 @@ def trainEpoch(epoch):
             
             # save models
             torch.save(vgg.state_dict(), './vgg16_epoch_%d.pth' % (epoch))
+	return loss
 ```
 
 
 
 ### For training iterations
 
-```
+```python
 for epoch in range(200):  # loop over the dataset multiple times
-	trainEpoch(epoch)
+	loss = trainEpoch(epoch)
 print('Finished Training')
 ```
 
 
+
+### Visualization using visdom
+
+We can use Visdom to visualize the loss curves during training. First
+
+```
+pip install visdom
+```
+
+Then, connect to visdom server in your command line by 
+
+```
+python -m visdom.server
+```
+
+![avatar](images/visdom.png)
+
+You should be able to access your visdom UI now by inputting
+
+```
+http://localhost:8097
+```
+
+in your browser.
+
+![avatar](images/visdom2.png)
+
+Then, modify your training iteration code as:
+
+```python
+import visdom
+vis = Visdom() #use_incoming_socket=False
+assert vis.check_connection()
+win_loss = vis.line(np.arange(10))  # create the window
+x_index = []
+losses = []
+
+for epoch in range(200):  # loop over the dataset multiple times
+	loss = trainEpoch(epoch)
+    x_index.append(epoch)
+    losses.append(loss)
+  
+    # plot the curve
+    vis.line(X=np.array(x_index),Y=np.array(losses),
+    win=win_loss,
+    opts=dict(title='LOSS',
+    xlabel='epoch',
+    xtick=1,
+    ylabel='loss',
+    markersymbol='dot',
+    markersize=5,
+    legend=['train loss']))
+print('Finished Training')
+```
 
 ### Test your model
 
@@ -136,4 +191,3 @@ def test():
 
 
 ## Toy tasks
-
