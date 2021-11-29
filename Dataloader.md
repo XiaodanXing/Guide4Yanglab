@@ -125,7 +125,7 @@ dataloader = DataLoader(dataset, batch_size=opt.batchSize,
 
 ```
 
-
+Here, batch_size is the number of images per batch. It is impossible to load all our training images into our model at the same time, so 'train by batches' here means that we sample some images to optimize parameters, and then sample some other images for a further optimization. When we trained our network on all training images, an EPOCH is completed.  Num_workers is the number of parallel workers for CPU during data loading. 
 
 
 

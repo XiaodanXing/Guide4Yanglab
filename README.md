@@ -70,4 +70,11 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 
 ## Starting an simple pytorch project: 
 
-For more instructions on how to build your own dataset, please see in [Dataloader](Dataloader.md)..
+For more instructions on how to build your own dataset, please see in [Dataloader](Dataloader.md).
+
+For more instructions on how to build your own network, please see in [Models](Models.md).
+
+For more instructions on how to start training procedures, please see in training and testing.
+
+
+

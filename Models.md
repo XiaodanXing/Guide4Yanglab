@@ -6,7 +6,7 @@ A manual for new starters in our group
 
 ## Build your own model
 
-Although this section is named 'build your own model', but I have to admit that I never build a model from scratch. Hooray for torchvision and Github!!
+Although this section is named 'build your own model', but I have to admit that I never built a model from scratch. Hooray for torchvision and Github!!
 
 
 
@@ -51,13 +51,15 @@ mnasnet = models.mnasnet1_0()
 
 ### Models from Github
 
-Pytorchvision models are easy to implement, but they are not easy to modify. Sometimes I copy and paste the Github models into my 'Models.py' file. By doing so, I could easily adjust the convolutional layers and normalization layers. DO remember add proper references if your are writing your paper/report.
+Pytorchvision models are easy to implement, but they are not easy to modify. Sometimes I copy and paste the Github models into my 'Models.py' file. By doing so, I could easily adjust the convolutional layers and normalization layers. DO remember to add proper references if your are writing your paper/report.
 
 
 
 ### Models from scratch
 
-In this section, some basic components in a deep learning network will be introduced. We will start by a simple 2D CNN. These basic components include convolutional operations `nn.Cov2d`, activation layers `nn.ReLU`, batch normalization layers `nn.BatchNormalization2D`, and fully connected layers `nn. Linear`. I added an operation calculating the output size of each convolutional and maxpooling layer. 
+In this section, some basic components in a deep learning network will be introduced. We will start with a simple 2D CNN. 
+
+These basic components include convolutional operations `nn.Cov2d`, activation layers `nn.ReLU`, batch normalization layers `nn.BatchNormalization2D`, and fully connected layers `nn. Linear`. I added an operation calculating the output size of each convolutional and maxpooling layer. 
 
 ```python
 import torch.nn as nn
