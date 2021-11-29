@@ -70,10 +70,4 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 
 ## Starting an simple pytorch project: 
 
-> If you are a new programmer who never writes a line of code before, these three guidelines are useful when you are programming your projects:
->
-> 1. Do not repeat yourself (this is also the most well-known programming principle).
-> 2. Always re-factor in your main running file.
-> 3. Document like your children will inherit your git repo. 
-
 For more instructions on how to build your own dataset, please see in [Dataloader](Dataloader.md)..
