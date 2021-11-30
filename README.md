@@ -74,7 +74,7 @@ For more instructions on how to build your own dataset, please see in [Dataloade
 
 For more instructions on how to build your own network, please see in [Models](Models.md).
 
-For more instructions on how to start training procedures, please see in training and testing.
+For more instructions on how to start training procedures, please see in [training and testing](Train.md).
 
 
 
