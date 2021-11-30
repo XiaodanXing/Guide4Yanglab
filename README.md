@@ -7,11 +7,11 @@ A manual for new starters in our group
 
 After learning some thrilling theoretical knowledge about deep learning and medical image analysis, it is time to start a hands-on project! This note will cover all the tips you will need to start a toy project on your own. We will learn to set up a new environment using anaconda, debug python project using Pycharm (it is okay to use other IDLEs), and build a sample segmentation project, segmenting LV from cardiac MR images. 
 
-Before we start, it is highly recommended that you use a Linux op system. In our group, we assigned dsi-gpu@172.26.93.109 to undergraduate students. Here are several tips for new linux users: 
+Before we start, it is highly recommended that you use a Linux op system. In our group, we assigned dsi-gpu to undergraduate students. Here are several tips for new linux users: 
 
 1. Download MobaXtern (for commanding) and WinSCP (for file transfer). 
 2. Open MobaXtern 
-3. Click session->ssh; remote host is 172.26.93.109, username is your name. Then you shall be connected. See picture below.
+3. Click session->ssh; remote host is the ip address, username is your name. Then you shall be connected. See picture below.
 <img src="images/moba.png" width="300px">
 4. In the command line, input `ls ` and this command will display all the files under your private folder. 
 
