@@ -12,7 +12,7 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 1. Download MobaXtern (for commanding) and WinSCP (for file transfer). 
 2. Open MobaXtern 
 3. Click session->ssh; remote host is the ip address, username is your name. Then you shall be connected. See picture below.
-<img src="images/moba.png" width="300px">
+![avatar](images/mobaxtern.png)
 4. In the command line, input `ls ` and this command will display all the files under your private folder. 
 
 
