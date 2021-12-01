@@ -1,4 +1,4 @@
-## miniconda
+## Miniconda
 1. Download miniconda here:
 https://docs.conda.io/en/latest/miniconda.html
 
@@ -6,6 +6,13 @@ https://docs.conda.io/en/latest/miniconda.html
 3. Run
 `bash Miniconda3-latest-Linux-x86_64.sh`
 `conda update conda`
+
+4. Useful Command: 
+`conda create -n env_name python==3.x.xx`
+`conda create -n env_name --clone env_name2`
+`conda env list`
+`conda activate env_name`
+`conda remove -n env_name --all`
 
 
 ## CUDA & cuDNN
@@ -15,7 +22,6 @@ cudnn==8.2.1
 
 `conda install cudatoolkit==11.3.1`
 `conda install cudnn==8.2.1`
-
 
 ## Torch 1.9.0
 https://download.pytorch.org/whl/torch_stable.html
