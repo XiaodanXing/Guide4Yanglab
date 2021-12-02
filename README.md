@@ -47,7 +47,7 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 5. We recommend pytorch for starters as the toolkit for deep learning. It is easier to compile and debug (than Tensorflow/Keras/Caffee).  
 
    ```
-   # The cuda version in default setting is CUDA 11.1
+   # The cuda version in the default setting is CUDA 11.1
    
    # Pytorch
    conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
