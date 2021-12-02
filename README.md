@@ -47,8 +47,12 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 5. We recommend pytorch for starters as the toolkit for deep learning. It is easier to compile and debug (than Tensorflow/Keras/Caffee).  
 
    ```
-   pip install torch 
-   pip install torchvision 
+   # The cuda version in default setting is CUDA 11.1
+   
+   # Pytorch
+   conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+   # Tensorflow
+   pip install tensorflow==2.4.0
    ```
 
 6. We recommend [Pycharm](https://www.jetbrains.com/pycharm/) as your IDE when you are programming with python. It is okay to choose others. For Pycharm new starters, download Pycharm in your home directory, and unzip the file you downloaded. In your home directory (for me, it is /home/xiaodan/) create a file named "pycharm.sh". Write below content in this file. Remember the directory name should match with your directory. 
@@ -75,6 +79,10 @@ For more instructions on how to build your own dataset, please see in [Dataloade
 For more instructions on how to build your own network, please see in [Models](Models.md).
 
 For more instructions on how to start training procedures, please see in [training and testing](Train.md).
+
+If you have questions, please post it on issues, or find answers in  [FAQ](FAQ.md).
+
+
 
 
 
