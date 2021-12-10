@@ -83,7 +83,10 @@ For more instructions on how to start training procedures, please see in [traini
 If you have questions, please post it on issues, or find answers in  [FAQ](FAQ.md).
 
 ## Format transformation
-mha to nii, nii to tif, parrec to nii, [dcm to nii](https://nipy.org/nibabel/dicom/dcm2nii_algorithms.html)
+[mha to nii](https://github.com/XiaodanXing/PytorchGuide/blob/main/mha_to_nii.py), 
+[nii to tif](https://github.com/XiaodanXing/PytorchGuide/blob/main/nii_to_tif.py), 
+[parrec to nii](https://github.com/XiaodanXing/PytorchGuide/blob/main/parrec_to_nii.py), 
+[dcm to nii](https://nipy.org/nibabel/dicom/dcm2nii_algorithms.html)
 
 
 
