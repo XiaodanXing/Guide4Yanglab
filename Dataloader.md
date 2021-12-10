@@ -36,6 +36,14 @@ from PIL import Image
 img = Image.open(filename)
 ```
 
+A few datasets are saved in the .mha format. In the [utils](utils/), we provided some useful tools to read this format. For Nifti files and Dicom files, the 3D image array is saved in one file, while for MHA files, the 3D array is saved separately in several 2D slice files. If you, unluckily, encountered MHA files,  please download the [utils](utils/). And input below commands to transfer them into Nifti. 
+
+```shell
+python mha_to_nii.py input_dir output_dir
+```
+
+Here, input_dir is the directory of MHA files, and output_dir is the path of the output Nifti file.   
+
 
 
 ### Preprocessings of medical images
