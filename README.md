@@ -18,7 +18,7 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 
    !!!!!!ATTENTION: There might be no yourname@ip prefix in your command line, i.e., your command window looks like
 
-   <img src="images/mobaxternnobash.png" alt="avatar" style="zoom: 80%;" />
+   <img src="images/mobaxternnobash.png" alt="avatar" style="zoom: 60%;" />
 
    This means that you did not enter bash. Type in `/bin/bash` to enter bash. And if you encounter this situation, please DO contact the PhD student who created your account for you to fix this problem. 
 
