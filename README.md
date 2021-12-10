@@ -85,7 +85,7 @@ If you have questions, please post it on issues, or find answers in  [FAQ](FAQ.m
 ## Format description and transformation
 NIFTI: [NIFTI-1](https://brainder.org/2012/09/23/the-nifti-file-format/), [NIFTI-2](https://brainder.org/2015/04/03/the-nifti-2-file-format/)
 
-[Understanding coordinate systems and DICOM for deep learning medical image analysis](https://theaisummer.com/medical-image-coordinates/)
+DICOM: [Understanding coordinate systems and DICOM for deep learning medical image analysis](https://theaisummer.com/medical-image-coordinates/)
 
 [mha to nii](https://github.com/XiaodanXing/PytorchGuide/blob/main/mha_to_nii.py), 
 [nii to tif](https://github.com/XiaodanXing/PytorchGuide/blob/main/nii_to_tif.py), 
