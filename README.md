@@ -10,10 +10,23 @@ After learning some thrilling theoretical knowledge about deep learning and medi
 Before we start, it is highly recommended that you use a Linux op system. In our group, we assigned dsi-gpu to undergraduate students. Here are several tips for new linux users: 
 
 1. Download MobaXtern (for commanding) and WinSCP (for file transfer). 
+
 2. Open MobaXtern 
-3. Click session->ssh; remote host is the ip address, username is your name. Then you shall be connected. See picture below.
-![avatar](images/mobaxtern.png)
-4. In the command line, input `ls ` and this command will display all the files under your private folder. 
+
+   1. Click session->ssh; remote host is the ip address, username is your name. Then you shall be connected. See picture below.
+                                                                          <img src="images/mobaxtern.png" alt="avatar" style="zoom:60%;" />
+
+   !!!!!!ATTENTION: There might be no yourname@ip prefix in your command line, i.e., your command window looks like
+
+   <img src="images/mobaxternnobash.png" alt="avatar" style="zoom: 80%;" />
+
+   This means that you did not enter bash. Type in `/bin/bash` to enter bash. And if you encounter this situation, please DO contact the PhD student who created your account for you to fix this problem. 
+
+   2. In the command line, input `ls ` and this command will display all the files under your private folder. 
+
+3. Open WinSCP
+
+   <img src="images/winscp.png" alt="avatar" style="zoom:80%;" />
 
 
 
@@ -82,17 +95,7 @@ For more instructions on how to start training procedures, please see in [traini
 
 If you have questions, please post it on issues, or find answers in  [FAQ](FAQ.md).
 
-## Format description and transformation
-### Description 
-NIFTI: [NIFTI-1](https://brainder.org/2012/09/23/the-nifti-file-format/), [NIFTI-2](https://brainder.org/2015/04/03/the-nifti-2-file-format/)
 
-DICOM: [Understanding coordinate systems and DICOM for deep learning medical image analysis](https://theaisummer.com/medical-image-coordinates/)
-
-### Transformation 
-[mha to nii](https://github.com/XiaodanXing/PytorchGuide/blob/main/mha_to_nii.py), 
-[nii to tif](https://github.com/XiaodanXing/PytorchGuide/blob/main/nii_to_tif.py), 
-[parrec to nii](https://github.com/XiaodanXing/PytorchGuide/blob/main/parrec_to_nii.py), 
-[dcm to nii](https://nipy.org/nibabel/dicom/dcm2nii_algorithms.html)
 
 
 
