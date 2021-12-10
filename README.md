@@ -83,6 +83,7 @@ For more instructions on how to start training procedures, please see in [traini
 If you have questions, please post it on issues, or find answers in  [FAQ](FAQ.md).
 
 ## Format description and transformation
+### Description 
 NIFTI: [NIFTI-1](https://brainder.org/2012/09/23/the-nifti-file-format/), [NIFTI-2](https://brainder.org/2015/04/03/the-nifti-2-file-format/)
 
 DICOM: [Understanding coordinate systems and DICOM for deep learning medical image analysis](https://theaisummer.com/medical-image-coordinates/)
