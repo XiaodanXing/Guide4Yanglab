@@ -63,6 +63,7 @@ A: It might because you create their account with `useradd -m`. Please do rememb
 sudo vim /etc/passwd
 ```
 and add /bin/bash/ for them manually.
+
 ![avatar](images/Q3.png)
 
 
