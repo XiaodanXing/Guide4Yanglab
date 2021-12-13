@@ -56,5 +56,13 @@ A: Please find detailed instructions on [Q2](faqs/Q2.md)
 
 
 
+#### 3. The user account I created did not enter bash automatically (Jiahao Huang, 2021.12.10)
+
+A: It might because you create their account with `useradd -m`. Please do remember to add users with `adduser`. If this already happens, you can help them enter bash automatically by revising /etc/passwd. Enter passwd file with
+```
+sudo vim /etc/passwd
+```
+and add /bin/bash/ for them manually.
+![avatar](images/Q3.png)
 
 
