@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-#### 1. Cannot start pycharm: No JRE found Error (Weixun Luo, 2021.12.1)
+### 1. Cannot start pycharm: No JRE found Error (Weixun Luo, 2021.12.1)
 
 ![avatar](images/Q1.jpg)
 
@@ -14,7 +14,7 @@ A: The version of pycharm does not match with the version of JAVA. Please use py
 
 
 
-#### 2. Could not load dynamic library 'libcupti.so.11.1' (Jiahao Huang, 2021.12.1) 
+### 2. Could not load dynamic library 'libcupti.so.11.1' (Jiahao Huang, 2021.12.1) 
 
 A: Please find detailed instructions on [Q2](faqs/Q2.md)
 
@@ -56,7 +56,7 @@ A: Please find detailed instructions on [Q2](faqs/Q2.md)
 
 
 
-#### 3. The user account I created did not enter bash automatically (Jiahao Huang, 2021.12.10)
+### 3. The user account I created did not enter bash automatically (Jiahao Huang, 2021.12.10)
 
 A: It might because you create their account with `useradd -m`. Please do remember to add users with `adduser`. If this already happens, you can help them enter bash automatically by revising /etc/passwd. Enter passwd file with
 
@@ -68,7 +68,7 @@ and add /bin/bash/ for them manually.
 
 ![avatar](images/Q3.png)
 
-#### 4. I want to process images by batches with a for-loop, but there are tons of them. I don't want to wait that long.  (Xiaodan Xing, 2021.12.15)
+### 4. I want to process images by batches with a for-loop, but there are tons of them. I don't want to wait that long.  (Xiaodan Xing, 2021.12.15)
 
 A: Multiprocessing is a good tool to accelerate your for-loops. By using multiple processes, multiple images can be pre-processed at a same time, and by doing so, you can save a lot of time.  Let take CT windowing as an example. 
 
