@@ -87,8 +87,8 @@ def ImagePreprocess(filename,window_level=-600,window_width=1200):
 	high_value = window_level + window_width/2
     img_arr[np.where(img_arr <= low_value)] = low_value
     img_arr[np.where(img_arr >= high_value)] = high_value
-
-	img_clipped = nib.Nifti1Image(img_arr, img.affine, img.header)
+    
+    img_clipped = nib.Nifti1Image(img_arr, img.affine, img.header)
     nib.save(img_clipped,'CTfiles_clipped/%s'%filename)
 
 
