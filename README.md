@@ -93,6 +93,8 @@ For more instructions on how to build your own network, please see in [Models](M
 
 For more instructions on how to start training procedures, please see in [training and testing](Train.md).
 
+For more instructions on how to set up on Google Colab, please see in [Set up Google Colab](Colab.md).
+
 If you have questions, please post it on issues, or find answers in  [FAQ](FAQ.md).
 
 
