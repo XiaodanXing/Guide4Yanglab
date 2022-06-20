@@ -147,6 +147,15 @@ for epoch in range(200):  # loop over the dataset multiple times
 print('Finished Training')
 ```
 
+#### I don't like the plotting style of visdom. How to extract the data points and re-plot the training curves for my manuscript?
+You can use [visdom-save](https://github.com/theevann/visdom-save) by 
+```
+python vis.py --save env_name --file file_path
+```
+All data points in the visdom windows will be saved in a log file which can be read by json.
+
+
+
 ### Test your model
 
 ```python
