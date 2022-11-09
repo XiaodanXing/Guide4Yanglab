@@ -151,7 +151,10 @@ rsync -rz --info=progress2 --partial /media/nas/model_weights.pth user_name@JADE
 module load python/anaconda3
 # if you choose pytorch 1.12.1
 module load cuda/11.1-gcc-9.1.0
-# if you choose other pytorch version, please check the JADE documents
+# if you choose pytorch 1.9.0
+# module load cuda/10.2
+# we do not recommend you to use other pytorch versions
+
 
 # use absolute path (recommend)
 # cd ~/.conda/envs 
