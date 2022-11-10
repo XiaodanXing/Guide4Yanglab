@@ -4,7 +4,7 @@
 
 <!-- **DO NOT ask Why, no time to answer** -->
 
-**Any question, check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first, if you can not handle the problem in 6 hours, then consider to contact Ming Li / Xiaodan Xing / Jiahao Huang via email, you will get response in 1-2 working day**
+**If you have any question, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first, if you can not handle the problem in 6 hours, then consider to contact Ming Li / Xiaodan Xing / Jiahao Huang via email, you will get response in 1-2 working day**
 
 ---
 
@@ -61,7 +61,7 @@ module load python/anaconda3
 conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n your_env_name
 ```
 
-### your_env_name naming method (recommend)
+### your_env_name naming convention (recommend)
 
 > yourName_version_torch <br>
 > (e.g., ming_112_torch)
@@ -71,6 +71,18 @@ conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n your
 > /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 <br>
 > /jmain02/apps/python3/anaconda3/envs/pytorch-1.9.0 <br>
 > /jmain02/apps/python3/anaconda3/envs/pytorch-1.8.1 <br>
+
+### or using your sweet old enviroment that is set up in your local device:
+1. First uploade your environment to NAS03 and then download the env folder in JADE2:
+```
+cp -r /home/your_name/anaconda3/envs/[your_env_name] /media/NAS03/JADE_envs/[your_env_name] 
+scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/home/[user_name]/[your_env_name] 
+```
+2. You are free to clone your environment by
+```
+conda create --clone /home/[user_name]/[your_env_name]  -n [your_env_name]
+
+
 
 ### test your envs
 
