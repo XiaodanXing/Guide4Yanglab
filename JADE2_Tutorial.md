@@ -4,13 +4,13 @@
 
 <!-- **DO NOT ask Why, no time to answer** -->
 
-**If you have any question, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first, if you can not handle the problem in 6 hours, then consider to contact Ming Li / Xiaodan Xing / Jiahao Huang via email, you will get response in 1-2 working day**
+**If you have any questions, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first; if you can not handle the problem in 6 hours, then consider to contact Ming Li / Xiaodan Xing / Jiahao Huang via email, you will get a response in 1-2 working day**
 
 ---
 
 ## 0 - Introduction
 
-We have three account on JADE2, namely
+We have three accounts on JADE2, namely
 
 > user_1 (ready, managed by Ming Li - <ming.li@imperial.ac.uk>) <br>
 > user_2 (on the way, managed by Xiaodan Xing - <x.xing@imperial.ac.uk>) <br>
@@ -22,16 +22,16 @@ We have three account on JADE2, namely
 ## 1 - Login yanglab6
 
 1. Ask Dr Guang Yang for Zerotier access permission
-2. Email Ming Li / Xiaodan Xing / Jiahao Huang for ID and passwd (attach the email or wechat screenshot that shows your have got permission)
-3. Login yanglab6 using specific ID
+2. Email Ming Li / Xiaodan Xing / Jiahao Huang for ID and password (attach the email or WeChat screenshot that shows your have got permission)
+3. Login yanglab6 using a specific ID
 ``` python
 ssh specific_ID@yanglab6_zerotier_ip
 ```
 
 ## 2 - Login JADE2
 
-1. Ask Dr Guang Yang for JADE2 access permission
-2. Email Ming Li / Xiaodan Xing / Jiahao Huang for ssh connection detail (attach the email or wechat screenshot that shows your have got permission)
+1. Ask Dr. Guang Yang for JADE2 access permission
+2. Email Ming Li / Xiaodan Xing / Jiahao Huang for ssh connection detail (attach the emails or WeChat screenshots that shows you have got permission)
 3. Connect JADE2 
 ``` python
 ssh user_name@JADE_address
@@ -45,7 +45,7 @@ ssh user_name@JADE_address
 
 ### create your own folder
 ``` python
-mkdir yourName
+mkdir [your_name]
 ```
 
 ### load modules
@@ -57,30 +57,30 @@ module load python/anaconda3
 
 ### clone env using this command
 ``` python
-# be patient, this procedure will take a long time
-conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n your_env_name
+# be patient. This procedure will take a long time
+conda create --clone /jmain02/apps/python3/anaconda3/envs/Pytorch-1.12.1 -n [your_name]
 ```
 
 ### your_env_name naming convention (recommend)
 
-> yourName_version_torch <br>
+> [your_name]_[cuda_version]_[torch_version] <br>
 > (e.g., ming_112_torch)
 
 ### you can choose the following options to clone:
 
-> /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 <br>
-> /jmain02/apps/python3/anaconda3/envs/pytorch-1.9.0 <br>
-> /jmain02/apps/python3/anaconda3/envs/pytorch-1.8.1 <br>
+> /jmain02/apps/python3/anaconda3/envs/Pytorch-1.12.1 <br>
+> /jmain02/apps/python3/anaconda3/envs/PyTorch-1.9.0 <br>
+> /jmain02/apps/python3/anaconda3/envs/PyTorch-1.8.1 <br>
 
-### or using your sweet old enviroment that is set up in your local device:
-1. First uploade your environment to NAS03 and then download the env folder in JADE2:
+### or using your sweet old environment that is set up in your local device:
+1. First upload your environment to NAS03 and then download the env folder in JADE2:
 ```
-cp -r /home/your_name/anaconda3/envs/[your_env_name] /media/NAS03/JADE_envs/[your_env_name] 
-scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/home/[user_name]/[your_env_name] 
+cp -r /home/[your_name]/anaconda3/envs/[your_env_name] /media/NAS03/JADE_envs/[your_env_name] 
+scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/home/[your_name]/[your_env_name] 
 ```
 2. You are free to clone your environment by
 ```
-conda create --clone /home/[user_name]/[your_env_name]  -n [your_env_name]
+conda create --clone /home/[your_name]/[your_env_name]  -n [your_env_name]
 
 
 
@@ -88,15 +88,15 @@ conda create --clone /home/[user_name]/[your_env_name]  -n [your_env_name]
 
 ``` python
 # activate
-source activate your_env_name
+source activate [your_env_name]
 
 # check package already installed
 conda list
 
 # customize your envs
-conda install package_you_need
+conda install packages_you_need
 
-# deactivate
+# deactivate (this can be important. If the conda virtual environment is not deactivated, you might not be able to activate the virtual environment in your job submissions)
 conda deactivate
 ```
 
@@ -110,7 +110,7 @@ after you login in yanglab6, use this command to transfer data&code between our 
 rsync -rz --info=progress2 --partial SOURCE_PATH TARGET_PATH
 
 # example
-rsync -rz --info=progress2 --partial /media/nas/model_weights.pth user_name@JADE_address:/home
+rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/home
 
 # use command `pwd` to get the path
 ```
@@ -157,15 +157,17 @@ rsync -rz --info=progress2 --partial /media/nas/model_weights.pth user_name@JADE
 # send mail to this address
 #SBATCH --mail-user=your_email_address
 
+# job partition size
+#SBATCH --partition=small
 
 
 # load modules
 module load python/anaconda3
-# if you choose pytorch 1.12.1
+# if you choose Pytorch 1.12.1
 module load cuda/11.1-gcc-9.1.0
-# if you choose pytorch 1.9.0
+# if you choose Pytorch 1.9.0
 # module load cuda/10.2
-# we do not recommend you to use other pytorch versions
+# we do not recommend you to use other PyTorch versions
 
 
 # use absolute path (recommend)
