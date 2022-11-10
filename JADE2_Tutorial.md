@@ -205,6 +205,12 @@ you will see "slurm-job_id.out" in the folder where your submission script exist
 cat slurm-job_id.out
 ```
 
+## Check GPU Status
+
+``` bash
+srun --jobid=your_job_id nvidia-smi
+```
+
 ---
 
 ## More details, please check [Slurm docs](https://docs.jade.ac.uk/en/latest/jade/scheduler/index.html#)
