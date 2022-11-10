@@ -81,7 +81,7 @@ scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/home/[
 2. You are free to clone your environment by
 ```
 conda create --clone /home/[your_name]/[your_env_name]  -n [your_env_name]
-
+```
 
 
 ### test your envs
