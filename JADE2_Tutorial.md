@@ -58,7 +58,7 @@ module load python/anaconda3
 ### clone env using this command
 ``` python
 # be patient. This procedure will take a long time
-conda create --clone /jmain02/apps/python3/anaconda3/envs/Pytorch-1.12.1 -n [your_name]
+conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [your_name]
 ```
 
 ### your_env_name naming convention (recommend)
@@ -68,9 +68,9 @@ conda create --clone /jmain02/apps/python3/anaconda3/envs/Pytorch-1.12.1 -n [you
 
 ### you can choose the following options to clone:
 
-> /jmain02/apps/python3/anaconda3/envs/Pytorch-1.12.1 <br>
-> /jmain02/apps/python3/anaconda3/envs/PyTorch-1.9.0 <br>
-> /jmain02/apps/python3/anaconda3/envs/PyTorch-1.8.1 <br>
+> /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 <br>
+> /jmain02/apps/python3/anaconda3/envs/pyTorch-1.9.0 <br>
+> /jmain02/apps/python3/anaconda3/envs/pyTorch-1.8.1 <br>
 
 ### or using your sweet old environment that is set up in your local device:
 1. First upload your environment to NAS03 and then download the env folder in JADE2:
