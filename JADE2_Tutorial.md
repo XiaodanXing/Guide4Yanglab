@@ -10,10 +10,6 @@
 
 <br>
 
-### More details, please check [Slurm docs](https://docs.jade.ac.uk/en/latest/jade/scheduler/index.html#)
-
-<br>
-
 ### If there still exists any knotty problems, please raise an issue at [this link](https://github.com/jade-hpc-gpu/jade-hpc-gpu.github.io/issues) 
 
 ---
@@ -247,7 +243,6 @@ cat slurm-job_id.out
 srun --jobid=your_job_id nvidia-smi
 ```
 
----
-<br><br><br>
+## More details, please check [Slurm docs](https://docs.jade.ac.uk/en/latest/jade/scheduler/index.html#)
 
 
