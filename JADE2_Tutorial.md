@@ -1,23 +1,53 @@
 # JADE2 Usage Tutorial
 
-**JUST follow this tutorial step by step**
+### **JUST follow this tutorial step by step !**
+
+<br>
 
 <!-- **DO NOT ask Why, no time to answer** -->
 
-**If you have any questions, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first; if you can not handle the problem in 6 hours, then consider to contact Ming Li / Xiaodan Xing / Jiahao Huang via email, you will get a response in 1-2 working day**
+### **If you have any questions, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first; if you can not handle the problem in 6 hours, then consider to contact Ming Li / Xiaodan Xing / Jiahao Huang via email, you will get a response in 1-2 working day**
+
+<br>
+
+### More details, please check [Slurm docs](https://docs.jade.ac.uk/en/latest/jade/scheduler/index.html#)
+
+<br>
+
+### If there still exists any knotty problems, please raise an issue at [this link](https://github.com/jade-hpc-gpu/jade-hpc-gpu.github.io/issues) 
 
 ---
+<br><br><br>
 
 ## 0 - Introduction
 
-We have three accounts on JADE2, namely
+*We have three accounts on JADE2, namely*
 
 > user_1 (ready, managed by Ming Li - <ming.li@imperial.ac.uk>) <br>
 > user_2 (on the way, managed by Xiaodan Xing - <x.xing@imperial.ac.uk>) <br>
-> user_3 (on the way, managed by Jiahao Huang - <j.huang21@imperial.ac.uk>) <br>
+> user_3 (on the way, managed by Jiahao Huang - <j.huang21@imperial.ac.uk>) 
 
+## Running Capacity (<u>for one single account</u>)
+
+<u>**we strongly recommend that you opt for ''small'', given the queuing time**</u>
+
+* every account can
+    > run 8 small jobs at most <br>
+    > run 5 big jobs at most <br>
+    > ~~run 1 devel job at most~~ <br>
+
+* partition description
+    > small - 1 GPU <br>
+    > big - 4 or 8 GPUs <br>
+    > ~~devel - 1 GPU~~ <br>
+
+* time limitation
+    > small - 6 days <br>
+    > big - 24 hours <br>
+    > ~~devel - 1 hour~~ <br>
 
 ---
+<br><br><br>
 
 ## 1 - Login yanglab6
 
@@ -38,6 +68,7 @@ ssh user_name@JADE_address
 ```
 
 ---
+<br><br><br>
 
 # Create Environment
 
@@ -58,19 +89,19 @@ module load python/anaconda3
 ### clone env using this command
 ``` python
 # be patient. This procedure will take a long time
-conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [your_name]
+conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [your_env_name]
 ```
 
 ### your_env_name naming convention (recommend)
 
-> [your_name]_[cuda_version]_[torch_version] <br>
+> [your_name]\_[cuda_version]\_[torch_version] <br>
 > (e.g., ming_112_torch)
 
 ### you can choose the following options to clone:
 
 > /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 <br>
 > /jmain02/apps/python3/anaconda3/envs/pyTorch-1.9.0 <br>
-> /jmain02/apps/python3/anaconda3/envs/pyTorch-1.8.1 <br>
+> ~~/jmain02/apps/python3/anaconda3/envs/pyTorch-1.8.1~~ <br>
 
 ### or using your sweet old environment that is set up in your local device:
 1. First upload your environment to NAS03 and then download the env folder in JADE2:
@@ -109,8 +140,14 @@ after you login in yanglab6, use this command to transfer data&code between our 
 ``` python
 rsync -rz --info=progress2 --partial SOURCE_PATH TARGET_PATH
 
-# example
+'''examples
+'''
+# transfer data from our local machine to JADE2
 rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/home
+
+# transfer data from JADE2 to our local machine
+rsync -rz --info=progress2 --partial user_name@JADE_address:/home/.../model_weights.pth /media/[nas_id]/
+
 
 # use command `pwd` to get the path
 ```
@@ -119,7 +156,7 @@ rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name
 > if your data is too large or contains too many files (i.e., thousands and hundreds of images), remember to compress your files before transfer
 
 ---
-
+<br><br><br>
 
 # Run Your Code
 
@@ -212,7 +249,6 @@ srun --jobid=your_job_id nvidia-smi
 ```
 
 ---
+<br><br><br>
 
-## More details, please check [Slurm docs](https://docs.jade.ac.uk/en/latest/jade/scheduler/index.html#)
 
-## If there still exists any knotty problems, please raise an issue at [this link](https://github.com/jade-hpc-gpu/jade-hpc-gpu.github.io/issues) 
