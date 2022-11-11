@@ -19,7 +19,7 @@
 ---
 <br><br><br>
 
-## 0 - Introduction
+# Introduction
 
 *We have three accounts on JADE2, namely*
 
@@ -46,8 +46,6 @@
     > big - 24 hours <br>
     > ~~devel - 1 hour~~ <br>
 
----
-<br><br><br>
 
 ## 1 - Login yanglab6
 
