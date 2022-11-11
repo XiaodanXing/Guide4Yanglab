@@ -130,6 +130,7 @@ conda deactivate
 ```
 
 ---
+<br><br><br>
 
 # Data&Code Transfer Between Our Local Workstation and JADE2
 
