@@ -20,8 +20,8 @@
 *We have three accounts on JADE2, namely*
 
 > user_1 (ready, managed by Ming Li - <ming.li@imperial.ac.uk>) <br>
-> user_2 (on the way, managed by Xiaodan Xing - <x.xing@imperial.ac.uk>) <br>
-> user_3 (on the way, managed by Jiahao Huang - <j.huang21@imperial.ac.uk>) 
+> user_2 (ready, managed by Xiaodan Xing - <x.xing@imperial.ac.uk>) <br>
+> user_3 (ready, managed by Jiahao Huang - <j.huang21@imperial.ac.uk>) 
 
 ## Running Capacity (<u>for one single account</u>)
 
