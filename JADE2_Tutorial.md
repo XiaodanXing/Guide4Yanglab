@@ -128,6 +128,13 @@ conda deactivate
 ---
 <br><br><br>
 
+# test your environment interactively with GPU resources
+To validate the environment installation with GPU resources, you need to apply for GPU with:
+```
+srun --gres=gpu:8 --pty /bin/bash
+```
+
+
 # Data&Code Transfer Between Our Local Workstation and JADE2
 
 after you login in yanglab6, use this command to transfer data&code between our local workstation and JADE2
