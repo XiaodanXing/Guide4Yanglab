@@ -131,7 +131,7 @@ conda deactivate
 ### test your environment interactively with GPU resources
 To validate the environment installation with GPU resources, you need to apply for GPU with:
 ```
-srun --gres=gpu:8 --pty /bin/bash
+srun --gres=gpu:1 --partition=small --pty /bin/bash
 ```
 
 
