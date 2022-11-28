@@ -125,14 +125,15 @@ conda install packages_you_need
 conda deactivate
 ```
 
----
-<br><br><br>
-
 ### test your environment interactively with GPU resources
 To validate the environment installation with GPU resources, you need to apply for GPU with:
 ```
 srun --gres=gpu:1 --partition=small --pty /bin/bash
 ```
+
+---
+<br><br><br>
+
 
 
 # Data&Code Transfer Between Our Local Workstation and JADE2
