@@ -17,7 +17,7 @@
 
 # Introduction
 
-*We have three accounts on JADE2, namely*
+*We have four accounts on JADE2, namely*
 
 > user_1 (ready, managed by Ming Li - <ming.li@imperial.ac.uk>) <br>
 > user_2 (ready, managed by Xiaodan Xing - <x.xing@imperial.ac.uk>) <br>
