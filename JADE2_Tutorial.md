@@ -21,7 +21,8 @@
 
 > user_1 (ready, managed by Ming Li - <ming.li@imperial.ac.uk>) <br>
 > user_2 (ready, managed by Xiaodan Xing - <x.xing@imperial.ac.uk>) <br>
-> user_3 (ready, managed by Jiahao Huang - <j.huang21@imperial.ac.uk>) 
+> user_3 (ready, managed by Jiahao Huang - <j.huang21@imperial.ac.uk>) <br>
+> user_4 (on the way, managed by Yang Nan - <y.nan20@imperial.ac.uk>)
 
 ## Running Capacity (<u>for one single account</u>)
 
@@ -54,7 +55,7 @@ ssh specific_ID@yanglab6_zerotier_ip
 
 ## 2 - Login JADE2
 
-1. Ask Dr. Guang Yang for JADE2 access permission
+1. Ask Dr Guang Yang for JADE2 access permission
 2. Email Ming Li / Xiaodan Xing / Jiahao Huang for ssh connection detail (attach the emails or WeChat screenshots that shows you have got permission)
 3. Connect JADE2 
 ``` python
