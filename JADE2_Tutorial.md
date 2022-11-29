@@ -62,6 +62,9 @@ ssh specific_ID@yanglab6_zerotier_ip
 ssh user_name@JADE_address
 ```
 
+### Attention: 
+> yanglab6 serves as a jump server, everyone needs to access JADE2 via yanglab6
+
 ---
 <br><br><br>
 
