@@ -150,7 +150,7 @@ rsync -rz --info=progress2 --partial SOURCE_PATH TARGET_PATH
 '''examples
 '''
 # transfer data from our local machine to JADE2
-rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/home
+rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/home/.../
 
 # transfer data from JADE2 to our local machine
 rsync -rz --info=progress2 --partial user_name@JADE_address:/home/.../model_weights.pth /media/[nas_id]/
