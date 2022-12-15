@@ -104,12 +104,17 @@ conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [you
 ### or using your sweet old environment that is set up in your local device:
 1. First upload your environment to NAS03 and then download the env folder in JADE2:
 ```
+# via any servers (yanglabx) that can access NAS03.
 cp -r /home/[your_name]/anaconda3/envs/[your_env_name] /media/NAS03/JADE_envs/[your_env_name] 
-scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/home/[your_name]/[your_env_name] 
+# via yanglab6 (jade account)
+scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/[home]/[your_name]/[your_env_name] 
 ```
-2. You are free to clone your environment by
+Please use `pwd` to check [home] when you first login JADE, especially when 'Permission Denied' happens.
+
+
+1. You are free to clone your environment by
 ```
-conda create --clone /home/[your_name]/[your_env_name]  -n [your_env_name]
+conda create --clone /[home]/[your_name]/[your_env_name]  -n [your_env_name]
 ```
 
 
