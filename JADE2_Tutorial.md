@@ -112,7 +112,7 @@ scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/[home]
 Please use `pwd` to check [home] when you first login JADE, especially when 'Permission Denied' happens.
 
 
-1. You are free to clone your environment by
+2. You are free to clone your environment by
 ```
 conda create --clone /[home]/[your_name]/[your_env_name]  -n [your_env_name]
 ```
@@ -121,7 +121,7 @@ conda create --clone /[home]/[your_name]/[your_env_name]  -n [your_env_name]
 ### test your envs
 
 ``` python
-# activate
+# activate (please use source activate, conda activate sometimes does not work.)
 source activate [your_env_name]
 
 # check package already installed
@@ -134,10 +134,20 @@ conda install packages_you_need
 conda deactivate
 ```
 
+Q: *Why we use `source activate` instead of `conda activate` here?*
+A: If we directly use `conda activate`, it requires `conda init` and restart the shell. Please use `source activate` at the first time (after `module load`), and free to use both of them later.
+
+
 ### test your environment interactively with GPU resources
 To validate the environment installation with GPU resources, you need to apply for GPU with:
 ```
 srun --gres=gpu:1 --partition=small --pty /bin/bash
+```
+
+If success:
+```
+srun: job xxxxxx queued and waiting for resources
+srun: job xxxxxx has been allocated resources
 ```
 
 ---
@@ -155,10 +165,10 @@ rsync -rz --info=progress2 --partial SOURCE_PATH TARGET_PATH
 '''examples
 '''
 # transfer data from our local machine to JADE2
-rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/home/.../
+rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/[home]/.../
 
 # transfer data from JADE2 to our local machine
-rsync -rz --info=progress2 --partial user_name@JADE_address:/home/.../model_weights.pth /media/[nas_id]/
+rsync -rz --info=progress2 --partial user_name@JADE_address:/[home]/.../model_weights.pth /media/[nas_id]/
 
 
 # use command `pwd` to get the path
