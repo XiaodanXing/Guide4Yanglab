@@ -199,7 +199,7 @@ rsync -rz --info=progress2 --partial user_name@JADE_address:/[home]/.../model_we
 #SBATCH --job-name=ming_job_test
 
 # set partitions: small or big or devel
-#SBATCH --partition=devel
+#SBATCH --partition=small
 
 # set number of GPUs
 #SBATCH --gres=gpu:1
@@ -216,8 +216,6 @@ rsync -rz --info=progress2 --partial user_name@JADE_address:/[home]/.../model_we
 # send mail to this address
 #SBATCH --mail-user=your_email_address
 
-# job partition size
-#SBATCH --partition=small
 
 
 # load modules
