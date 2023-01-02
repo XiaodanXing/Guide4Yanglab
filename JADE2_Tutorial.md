@@ -196,7 +196,7 @@ rsync -rz --info=progress2 --partial user_name@JADE_address:/[home]/.../model_we
 #SBATCH --time=10:00:00
 
 # set name of job
-#SBATCH --job-name=ming_job_test
+#SBATCH --job-name=yourname_job_test
 
 # set partitions: small or big or devel
 #SBATCH --partition=small
