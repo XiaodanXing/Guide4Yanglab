@@ -21,7 +21,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 
 ## <span style="color:#2E86C1 ">*Computational Resources in `ayanglab`*</span>
----
+
 ### <span style="color:#2E86C1 ">*Local Workstations*</span>
 
 |Name|Administrator|Email|
