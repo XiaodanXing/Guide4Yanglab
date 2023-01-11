@@ -69,7 +69,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
   * when you train models, please transfer data to corresponding workstations, every workstation has large local HHD or SSD (path: /media/hhd or /media/ssd, use command `"df -h"` to check the path)
   * <span style="color:red; font-size:1em">*only use NAS for dataset/models/projects backup*</span>
 
-### <span style="color:#2E86C1 ">*How to setup NAS?*</span>
+### <span style="color:#2E86C1 ">*How to set up NAS?*</span>
 * please refer to `Teams` (Path: Team notes)
 
 ### <span style="color:#2E86C1 ">*Datasets overview*</span>
@@ -84,7 +84,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 2. ask Dr Guang Yang for oral zerotier access permission
 3. email Ming Li (CC Dr Guang Yang) to authorize your zerotier connection
    (provide your zerotier address e.g., 530c509607)
-4. login workstation (ask corresponding administrator	to help your set new account)
+4. login workstation (ask corresponding administrator	to help your set up new account)
 
 ---
 <br>
