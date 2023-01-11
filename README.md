@@ -74,6 +74,8 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 ### <span style="color:#2E86C1 ">*Datasets overview*</span>
 * please refer to `Teams` (Path: Team notes)
+	* before you download any dataset from the internet, check `Teams notes` in case repeated storage (save NAS space)
+	* once you save any new dataset on NAS, please remember to update the `Teams notes`
 
 ---
 <br>
