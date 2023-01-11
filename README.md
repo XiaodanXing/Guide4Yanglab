@@ -36,6 +36,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 |yanglab6|Ming Li| ming.li@imperial.ac.uk |
 |yanglab7|Yinzhe Wu| yinzhe.wu18@imperial.ac.uk |
 |yanglab8|Fanwen Wang| fanwen.wang@imperial.ac.uk |
+|DistriM|Ming Li|ming.li@imperial.ac.uk|
 
 * check workstation IP in `Teams` (Path: Files/Workstation Information)
 * ask Dr Guang Yang for `Teams` permission
