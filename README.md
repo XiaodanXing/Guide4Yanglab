@@ -92,7 +92,13 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 
+## <span style="color:#2E86C1 ">*AC setting in our office*</span>
+* please refer to [TOSHIBA_AC_setting_manual](TOSHIBA_AC_setting_manual.pdf)
 
+
+---
+<br>
+<br>
 
 
 
