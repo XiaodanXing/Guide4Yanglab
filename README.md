@@ -66,7 +66,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
   * we are not running a company, we are just a research lab, we do not have any IT or Operation & Maintenance engineers
   * our NASs are not Enterprise Data Warehouse and we do not have disaster recovery backup
   * <span style="color:red; font-size:1em">*please do not load data to gpus from /media/NAS\* directly*</span>
-  * when you train models, please transfer data to corresponding workstations, every workstation has large local HHD or SSD (path: /media/hhd or /media/ssd, use command `"df -h"` to check the path)
+  * when you train models, please transfer data to corresponding workstations, every workstation has large local HDD or SSD (path: /media/hdd or /media/ssd, use command `"df -h"` to check the path)
   * <span style="color:red; font-size:1em">*only use NAS for dataset/models/projects backup*</span>
 
 ### <span style="color:#2E86C1 ">*How to set up NAS?*</span>
