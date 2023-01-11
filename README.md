@@ -56,10 +56,10 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 |Name|NAS mount path on local workstation|Administrator|Email|
 | :--- | :---: | :---: | ---: |
-|NAS00| /media/NAS00 |Ming Li| ming.li@imperial.ac.uk |
-|NAS01| /media/NAS01 <br> /media/NAS02 |Ming Li| ming.li@imperial.ac.uk |
-|NAS02| /media/NAS03 |Ming Li| ming.li@imperial.ac.uk |
-|NAS03| /media/NAS04 |Ming Li| ming.li@imperial.ac.uk |
+|NAS1| /media/NAS00 |Ming Li| ming.li@imperial.ac.uk |
+|NAS2| /media/NAS01 <br> /media/NAS02 |Ming Li| ming.li@imperial.ac.uk |
+|NAS3| /media/NAS03 |Ming Li| ming.li@imperial.ac.uk |
+|NAS4| /media/NAS04 |Ming Li| ming.li@imperial.ac.uk |
 
 
 * `Attention`: 
