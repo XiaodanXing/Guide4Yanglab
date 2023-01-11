@@ -84,7 +84,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 2. ask Dr Guang Yang for oral zerotier access permission
 3. email Ming Li (CC Dr Guang Yang) to authorize your zerotier connection
    (provide your zerotier address e.g., 530c509607)
-4. login workstation (ask corresponding administrator	to help your set up new account)
+4. login workstation (ask corresponding administrator	to help you set up new account)
 
 ---
 <br>
