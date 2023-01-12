@@ -22,7 +22,7 @@
 
 *We have four accounts on JADE2, namely*
 
-|Name|Status|Administrator|Email|
+|jade_user_name|Status|Administrator|Email|
 | :--- | :---: | :---: | ---: |
 |mxl76-axf04|ready|Ming Li|ming.li@imperial.ac.uk|
 |xxx16-axf04|ready|Xiaodan Xing|x.xing@imperial.ac.uk|
