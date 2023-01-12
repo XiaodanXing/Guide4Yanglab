@@ -173,7 +173,8 @@ conda deactivate
     '''use command `pwd` to get the path
     '''
     rsync -rz --info=progress2 --partial SOURCE_PATH TARGET_PATH
-
+    ```
+    ``` python
     '''examples
     '''
     # transfer data from our local machine to JADE2
