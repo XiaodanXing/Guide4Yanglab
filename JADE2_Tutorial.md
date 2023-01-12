@@ -49,9 +49,9 @@
 1. ask Dr Guang Yang for oral `zerotier & JADE2` access permission
 2. email Ming Li (CC Dr Guang Yang) to authorize your `zerotier & JADE2` connection
    (provide your zerotier address e.g., 530c509607)
-3. login yanglab6 using a specific ID
+3. login yanglab6 using a specific ID: `yanglab_jade`
     ``` python
-    ssh specific_ID@yanglab6_zerotier_ip
+    ssh yanglab_jade@yanglab6_zerotier_ip
     ```
     * `Attention:`
         * yanglab6 serves as a jump server, everyone needs to access JADE2 via yanglab6
@@ -105,20 +105,20 @@ conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [you
 
 > /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 <br>
 > /jmain02/apps/python3/anaconda3/envs/pyTorch-1.9.0 <br>
-> ~~/jmain02/apps/python3/anaconda3/envs/pyTorch-1.8.1~~ <br>
+> /jmain02/apps/python3/anaconda3/envs/pyTorch-1.8.1
 
-### <span style="color:#2E86C1 ">*or using your sweet old environment that is set up in your local device:*</span>
-1. first upload your environment to NAS* and then download the env folder to JADE2:
+* `recommend:` *pytorch-1.12.1*
+
+### <span style="color:#2E86C1 ">*or using your sweet old env that is set up in your local device:*</span>
+1. first upload your env to NAS0* and then transfer the env to JADE2:
     ``` python
-    # via any servers (yanglab*) that can access NAS*
-    cp -r /home/[your_name]/anaconda3/envs/[your_env_name] /media/NAS*/JADE_envs/[your_env_name] 
+    # via any servers (yanglab*) that can access NAS0*
+    cp -r /home/[your_name]/anaconda3/envs/[your_env_name] /media/NAS0*/[your_dir]/[your_env_name]
 
-    # via yanglab6 (jade account)
-    scp -r /media/NAS03/JADE_envs/[your_env_name] [user_name]@[JADE_address]:/[home]/[your_name]/[your_env_name] 
+    # via yanglab6 (jade account: yanglab_jade)
+    # use `pwd` to check [home] path when you first login JADE
+    scp -r /media/NAS0*/[your_dir]/[your_env_name] [jade_user_name]@[JADE_address]:/[home]/[your_name]/[your_env_name] 
     ```
-
-    * `Attention:`
-        * Please use `pwd` to check [home] when you first login JADE, especially when 'Permission Denied' happens
 
 
 2. You are free to clone your environment by
