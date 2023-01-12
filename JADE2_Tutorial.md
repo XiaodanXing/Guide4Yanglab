@@ -83,7 +83,7 @@ mkdir [your_name]
 ``` python
 module load python/anaconda3
 
-# abbreviation
+# or use abbreviation
 ml python/anaconda3
 ```
 
