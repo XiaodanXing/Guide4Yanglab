@@ -24,10 +24,10 @@
 
 |Name|Status|Administrator|Email|
 | :--- | :---: | :---: | ---: |
-|user_1|ready|Ming Li|ming.li@imperial.ac.uk|
-|user_2|ready|Xiaodan Xing|x.xing@imperial.ac.uk|
-|user_3|ready|Jiahao Huang|j.huang21@imperial.ac.uk|
-|user_4|on the way|Yang Nan|y.nan20@imperial.ac.uk|
+|mxl76-axf04|ready|Ming Li|ming.li@imperial.ac.uk|
+|xxx16-axf04|ready|Xiaodan Xing|x.xing@imperial.ac.uk|
+|jxh30-axf04|ready|Jiahao Huang|j.huang21@imperial.ac.uk|
+|-|on the way|Yang Nan|y.nan20@imperial.ac.uk|
 
 <br>
 
@@ -50,14 +50,14 @@
 2. email Ming Li (CC Dr Guang Yang) to authorize your `zerotier & JADE2` connection
    (provide your zerotier address e.g., 530c509607)
 3. login yanglab6 using a specific ID: `yanglab_jade`
-    ``` python
+    ``` bash
     ssh yanglab_jade@yanglab6_zerotier_ip
     ```
     * `Attention:`
         * yanglab6 serves as a jump server, everyone needs to access JADE2 via yanglab6
 4.  connect JADE2 
-    ``` python
-    ssh jade_user_name@JADE_address
+    ``` bash
+    ssh -l [jade_user_name] jade2.hartree.stfc.ac.uk
     ```
 
 ---
@@ -74,6 +74,9 @@
 ### <span style="color:#2E86C1 ">*create your own folder*</span>
 ``` python
 mkdir [your_name]
+
+# use `pwd` to check the path
+# it should be `/jmain02/home/J2AD015/axf04/[jade_user_name]/[your_name]`
 ```
 
 ### <span style="color:#2E86C1 ">*load modules*</span>
@@ -92,6 +95,11 @@ ml python/anaconda3
 ``` python
 # be patient. This procedure will take a long time
 conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [your_env_name]
+
+# your env will be created at the following path
+# /jmain02/home/J2AD015/axf04/[jade_user_name]/.conda/envs
+# or 
+# ~/.conda/envs
 ```
 
 ### <span style="color:#2E86C1 ">*your_env_name naming convention (recommend)*</span>
@@ -112,18 +120,20 @@ conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [you
 ### <span style="color:#2E86C1 ">*or using your sweet old env that is set up in your local device:*</span>
 1. first upload your env to NAS0* and then transfer the env to JADE2:
     ``` python
-    # via any servers (yanglab*) that can access NAS0*
-    cp -r /home/[your_name]/anaconda3/envs/[your_env_name] /media/NAS0*/[your_dir]/[your_env_name]
+    # login any local workstation (yanglab*) that can access NAS0*
+    cp -r /home/[your_name]/anaconda3/envs/[your_env_name] /media/[NAS0*]/[your_dir]/[your_env_name]
 
-    # via yanglab6 (jade account: yanglab_jade)
-    # use `pwd` to check [home] path when you first login JADE
-    scp -r /media/NAS0*/[your_dir]/[your_env_name] [jade_user_name]@[JADE_address]:/[home]/[your_name]/[your_env_name] 
+    # login yanglab_jade@yanglab6
+    # use `pwd` to check [home] path on JADE2
+    scp -r /media/[NAS0*]/[your_dir]/[your_env_name] [jade_user_name]@jade2.hartree.stfc.ac.uk:/jmain02/home/J2AD015/axf04/[jade_user_name]/[your_name]/[your_env_name] 
+    # or
+    rsync -rz --info=progress2 --partial /media/[NAS0*]/[your_dir]/[your_env_name] [jade_user_name]@jade2.hartree.stfc.ac.uk:/jmain02/home/J2AD015/axf04/[jade_user_name]/[your_name]/[your_env_name] 
     ```
 
 
 2. You are free to clone your environment by
     ``` python
-    conda create --clone /[home]/[your_name]/[your_env_name] -n [your_env_name]
+    conda create --clone /jmain02/home/J2AD015/axf04/[jade_user_name]/[your_name]/[your_env_name] -n [your_env_name]
     ```
 
 ### <span style="color:#2E86C1 ">*test your envs*</span>
@@ -176,10 +186,10 @@ conda deactivate
     '''examples
     '''
     # transfer data from our local machine to JADE2
-    rsync -rz --info=progress2 --partial /media/[nas_id]/model_weights.pth user_name@JADE_address:/[home]/.../
+    rsync -rz --info=progress2 --partial /media/[NAS0*]/model_weights.pth [jade_user_name]@jade2.hartree.stfc.ac.uk:/jmain02/home/J2AD015/axf04/[jade_user_name]/[your_name]/
 
     # transfer data from JADE2 to our local machine
-    rsync -rz --info=progress2 --partial user_name@JADE_address:/[home]/.../model_weights.pth /media/[nas_id]/
+    rsync -rz --info=progress2 --partial [jade_user_name]@jade2.hartree.stfc.ac.uk:/jmain02/home/J2AD015/axf04/[jade_user_name]/[your_name]/model_weights.pth /media/[NAS0*]/
     ```
 
 ### `Attention:`
