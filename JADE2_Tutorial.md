@@ -5,11 +5,9 @@
 <br>
 
 
-1. ### If you have any questions, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first 
-
-2. ### if you can not handle the problem, then raise an issue at [this link](https://github.com/XiaodanXing/Guide4Yanglab/issues)
-
-3. ### If there still exists any knotty problems, please raise an issue at [this link](https://github.com/jade-hpc-gpu/jade-hpc-gpu.github.io/issues) 
+1. if you have any questions, please check the [official docs](https://docs.jade.ac.uk/en/latest/index.html) first
+2. if you can not handle the problem, then raise an issue at [this link](https://github.com/XiaodanXing/Guide4Yanglab/issues)
+3. if there still exists any knotty problems, please raise an issue at [this link](https://github.com/jade-hpc-gpu/jade-hpc-gpu.github.io/issues) 
 
 ---
 <br>
