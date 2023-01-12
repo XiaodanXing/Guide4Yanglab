@@ -237,6 +237,9 @@ source activate /.../your_env_name
 # use absolute path (recommend)
 python /.../gpu_test.py
 ```
+* `ATTENTION`
+    * do not delete # in #SBATCH
+
 
 ## Submit Jobs
 
