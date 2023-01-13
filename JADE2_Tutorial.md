@@ -302,6 +302,21 @@ srun --jobid=your_job_id nvidia-smi
 
 <br>
 
+## <span style="color:#2E86C1 ">*Some useful command line options for `squeue` include*</span>
+
+``` bash
+# for showing more of the available information
+squeue -l
+
+# for showing information regarding a particular job ID
+squeue -j your_job_id
+
+# to report the expected start time of pending jobs
+squeue --start
+```
+
+<br>
+
 ## More details, please check [Slurm docs](https://docs.jade.ac.uk/en/latest/jade/scheduler/index.html#)
 
 
