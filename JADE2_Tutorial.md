@@ -36,11 +36,11 @@
 <u>*we strongly recommend that you opt for `small`, given the queuing time*</u>
 
 
-|Partition|Description|Job Walltime limit|Running Job limit|
-| :--- | :---: | :---: | ---: |
-|`small`|Partition dedicated to jobs that utilise a single GPUs each|6 days|5 Jobs|
-|`big`|Partition dedicated to jobs that occupy an entire node, i.e., 8 or 4 GPUs|24 hours|8 Jobs|
-|`devel`|Partition dedicated to testing <br> <span style="color:#2E86C1 ">*should be used to check your submission script works correctly and that your application starts to execute without errors*</span>|1 hour|1 Job|
+|Partition|Partition Size|Description|Job Walltime limit|Running Job limit|
+| :--- | :---: | :---: | :---: | :---: |
+|`small`|30 nodes|Partition dedicated to jobs that utilise a single GPUs each|6 days|5 Jobs|
+|`big`|30 nodes|Partition dedicated to jobs that occupy an entire node, i.e., 8 or 4 GPUs|24 hours|8 Jobs|
+|`devel`|3 nodes|Partition dedicated to testing <br> <span style="color:#2E86C1 ">*should be used to check your submission script works correctly and that your application starts to execute without errors*</span>|1 hour|1 Job|
 
 <br>
 
