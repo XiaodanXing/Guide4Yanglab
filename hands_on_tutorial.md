@@ -11,7 +11,7 @@ Before we start, it is highly recommended that you use a Linux op system. In our
 2. Open MobaXtern 
 
    1. Click session->ssh; remote host is the ip address, username is your name. Then you shall be connected. See picture below.
-                                                                          <img src="images/mobaxtern.png" alt="avatar" style="zoom:60%;" />
+   <img src="images/mobaxtern.png" alt="avatar" style="zoom:60%;" />
 
    !!!!!!ATTENTION: There might be no yourname@ip prefix in your command line, i.e., your command window looks like
 
