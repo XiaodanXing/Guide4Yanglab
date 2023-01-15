@@ -92,3 +92,20 @@ For `Mac`
 7.	Search `MATLAB` and install it
 8.	Follow on-screen instructions to finish setting up `MATLAB` as a stand-alone Application
 9.	Launch `MATLAB` (From `Applications`)
+
+
+<br>
+<br>
+
+
+## <span style="color:#2E86C1 ">*Activating MATLAB for another user after installation*</span>
+1.	log into the user whose MATLAB license is to be activated
+2.	open `Terminal`
+3.	key in `/usr/local/MATLAB/R2022b/bin/activate_matlab.sh` (replace `2022b` if using other MATLAB versions)
+4.	Follow on-screen instructions to activate your account
+5.	open `Terminal`
+6.	key in `matlab`
+7.	If correctly activated, you should see MATLAB GUI window poped up. Otherwise, an error message will be shown
+
+<br>
+<br>
