@@ -28,16 +28,15 @@
 
 For `Windows`
 1. search `remote desktop connection` by `win+s` <br>
-    <img src="images/remote_desktop_app.png" alt="avatar" style="zoom:30%;">
+    <img src="images/remote_desktop_app.png" width="400" height="150">
 2. key in zerotier IP address <br>
-    <img src="images/key_ip.png" alt="avatar" style="zoom:30%;">
+    <img src="images/key_ip.png" width="250" height="150">
 3. set resolution and colors <br>
-    <img src="images/set_resolution.png" alt="avatar" style="zoom:30%;">
+    <img src="images/set_resolution.png" width="190" height="200">
 4. follow on-screen protocol to login into your server account
     * type in your username and passwd, same as ssh connection
 5. you will see <br>
-    <img src="images/xrdp.png" alt="avatar" style="zoom:26%;">
-
+    <img src="images/xrdp.png" width="300" height="190">
 
 For `Mac`
 1. download [`remote desktop connection`](https://apps.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12)
