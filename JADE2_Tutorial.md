@@ -59,6 +59,12 @@
     ``` bash
     ssh -l [jade_user_name] jade2.hartree.stfc.ac.uk
     ```
+5. `optional:` *Command line highlight* <br>
+    ``` bash
+    source /jmain02/home/J2AD015/axf04/mxl76-axf04/ming/.profile
+    ```
+    you will see <br>
+    <img src="images/highlight.png" width="500" height="150">
 
 ---
 <br>
