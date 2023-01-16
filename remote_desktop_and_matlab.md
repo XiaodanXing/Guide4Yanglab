@@ -1,7 +1,7 @@
 # <span style="color:#2E86C1 ">*GUI - Remote Desktop*</span>
 
 
-## <span style="color:#2E86C1 ">*Install xrdp on ubuntu*</span>
+## <span style="color:#2E86C1 ">*1 - Install xrdp on ubuntu*</span>
 
 1. download [install script](https://www.c-nergy.be/products.html) or use the [backup here](utils/xrdp-installer-1.4.6.sh)
 2. execute the following commands
@@ -24,7 +24,7 @@
 <br>
 
 
-## <span style="color:#2E86C1 ">*Set up `remote desktop app` on your laptop*</span>
+## <span style="color:#2E86C1 ">*2 - Set up `remote desktop app` on your laptop*</span>
 
 For `Windows`
 1. search `remote desktop connection` by `win+s` <br>
@@ -47,18 +47,7 @@ For `Mac`
 <br>
 
 
-## <span style="color:#2E86C1 ">*`Optional:` to disable animation on Ubuntu*</span>
-1.	Launch software (From Applications)
-2.	Search GNOME Tweaks and install it
-3.	Launch GNOME Tweaks
-4.	Appearance `Animation` OFF
-
-
-<br>
-<br>
-
-
-## <span style="color:#2E86C1 ">*Install Teamviewer on Ubuntu to get a stable remote desktop connection*</span>
+## <span style="color:#2E86C1 ">*3 - Install Teamviewer on Ubuntu to get a stable remote desktop connection*</span>
 1. login `remote desktop connection`
 2. download and install [Teamviewer](https://www.teamviewer.com/en/download/linux/)
 3. launch Teamviewer
@@ -69,6 +58,17 @@ For `Mac`
     7.	set up a free Teamviewer account and login into it on the desktop software <br>
     8.	to set up a personal password for access: 
     `Teamviewer --> Extras --> options --> Advanced --> Personal password`
+
+
+<br>
+<br>
+
+
+## <span style="color:#2E86C1 ">*`Optional:` to disable animation on Ubuntu*</span>
+1.	Launch software (From Applications)
+2.	Search GNOME Tweaks and install it
+3.	Launch GNOME Tweaks
+4.	Appearance `Animation` OFF
 
 
 <br>
