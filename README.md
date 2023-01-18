@@ -94,7 +94,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 ## <span style="color:#2E86C1 ">*Building local environments*</span>
-* please refer to [building local environments](hands_on_tutorial.md)
+* please refer to [building local environments](hands_on_tutorial.md) and [reinstallation of CUDA](cuda-installation.md)
 
 
 ---
