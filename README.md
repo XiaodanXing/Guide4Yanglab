@@ -93,8 +93,8 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 <br>
 
-## <span style="color:#2E86C1 ">*Deep learning hands on tutorial*</span>
-* please refer to [hands-on-tutorial](hands_on_tutorial.md)
+## <span style="color:#2E86C1 ">*Building local environments*</span>
+* please refer to [building local environments](hands_on_tutorial.md)
 
 
 ---
