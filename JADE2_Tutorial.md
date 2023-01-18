@@ -124,6 +124,10 @@ conda create --clone /jmain02/apps/python3/anaconda3/envs/pytorch-1.12.1 -n [you
 * `recommend:` *pytorch-1.12.1*
 
 ### <span style="color:#2E86C1 ">*or using your sweet old env that is set up in your local device:*</span>
+* `ATTENTION`
+    * there exist probability that your uploaded env does not match the `CUDA version on JADE2`, so your env will not be able to call `GPU` and will thus run with `CPU`, so please test and make sure your env could be able to call `GPU`
+    * to avoid the aforementioned issue, we suggest you to clone the official build envs, and then customize your own env via `conda install packages`
+
 1. first upload your env to NAS0* and then transfer the env to JADE2:
     ``` python
     # login any local workstation (yanglab*) that can access NAS0*
