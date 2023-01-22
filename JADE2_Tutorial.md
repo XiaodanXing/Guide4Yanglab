@@ -203,7 +203,10 @@ conda deactivate
     ```
 
 ### `Attention:`
-> if your data is too large or contains too many files (i.e., thousands and hundreds of images), remember to compress your files before transfer
+* if your data is too large or contains too many files (i.e., thousands and hundreds of images), remember to compress your files before transfer
+* when you login one account, you can access all data of three accounts
+* you do not need to upload data&codes to all three accounts, you can upload data&codes to one account and login another account, you should still be able to run your codes
+
 
 ---
 <br>
