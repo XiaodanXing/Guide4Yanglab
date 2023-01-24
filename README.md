@@ -162,7 +162,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 |time|speaker|topic|readings <br> slides|
 | :--- | :---: | :---: | :---: |
-|2023-01-27|Ming Li|Learning in the Frequency Domain|[link](journal_club/2023Jan27_MingLi/)|
+|2023-01-27|Ming Li|Learning in the Frequency Domain|[link](journal_club/2023-01-27-Ming_Li/)|
 |?|?|?|?|
 
 
