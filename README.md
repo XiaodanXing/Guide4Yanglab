@@ -1,7 +1,7 @@
 # <span id="top" style="color:#2E86C1 ">*A manual for new starters in our group [`ayanglab`](https://www.yanglab.fyi/)*</span>
 
 * `NOTE`
-  * this repo will transferred to https://github.com/ayanglab in a near future
+  * this repo will be transferred to https://github.com/ayanglab in a near future
 
 <br>
 
