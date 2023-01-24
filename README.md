@@ -1,4 +1,4 @@
-# <span style="color:#2E86C1 ">*A manual for new starters in our group `ayanglab`*</span>
+# <span id="top" style="color:#2E86C1 ">*A manual for new starters in our group `ayanglab`*</span>
 
 
 ## <span style="color:#2E86C1 ">*Table of Contents*</span>
@@ -170,4 +170,4 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 
-:point_up_2: <span id="top" style="color:#2E86C1 ">*Back to Top*</span>
+:point_up_2: <span style="color:#2E86C1 ">*[Back to Top](#top)*</span>
