@@ -1,9 +1,27 @@
 # <span style="color:#2E86C1 ">*A manual for new starters in our group `ayanglab`*</span>
 
+
+## <span style="color:#2E86C1 ">*Table of Contents*</span>
+* [*FAQ*](#faq) 
+* [*Computational Resources in `ayanglab`*](#cria)
+* [*JADE2*](#jade2)
+* [*NAS*](#nas)
+* [*Datasets overview*](#data)
+* [*SSH Connection*](#ssh)
+* [*Build Environment*](#env)
+* [*Remote Desktop*](#rm)
+* [*Matlab*](#rm)
+* [*Office Key*](#key)
+* [*Office AC*](#ac)
+* [*Journal Club*](#journalclub)
+
+
+<br>
+<br>
 <br>
 
 
-## <span style="color:#2E86C1 ">*Q&A*</span>
+## <span id="faq" style="color:#2E86C1 ">*FAQ*</span>
 If you have any questions, <span style="color:red; font-size:1em">*please post it on issues*</span>, or find answers in  [FAQ](FAQ/FAQ.md).
 
 ### <span style="color:#2E86C1 ">*How to raise questions?*</span>
@@ -20,7 +38,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 
-## <span style="color:#2E86C1 ">*Computational Resources in `ayanglab`*</span>
+## <span id="cria" style="color:#2E86C1 ">*Computational Resources in `ayanglab`*</span>
 
 ### <span style="color:#2E86C1 ">*Local Workstations*</span>
 
@@ -43,12 +61,12 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 ---
 <br>
 
-### <span style="color:#2E86C1 ">*JADE2*</span>
+### <span id="jade2" style="color:#2E86C1 ">*JADE2*</span>
 * For more instructions on how to use JADE2, please check [JADE tutorial](JADE2_Tutorial.md).
 ---
 <br>
 
-### <span style="color:#2E86C1 ">*Colab*</span>
+### <span id="nas" style="color:#2E86C1 ">*Colab*</span>
 * For more instructions on how to set up on Google Colab, please check [Set up Google Colab](boilerplate_code/Colab.md).
 ---
 <br>
@@ -73,7 +91,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 ### <span style="color:#2E86C1 ">*How to set up NAS?*</span>
 * please refer to `Teams` (Path: Team notes)
 
-### <span style="color:#2E86C1 ">*Datasets overview*</span>
+### <span id="data" style="color:#2E86C1 ">*Datasets overview*</span>
 * please refer to `Teams` (Path: Team notes)
 	* before you download any dataset from the internet, check `Teams notes` in case repeated storage (save NAS space)
 	* once you save any new dataset on NAS, please remember to update the `Teams notes`
@@ -81,7 +99,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 ---
 <br>
 
-### <span style="color:#2E86C1 ">*SSH access to local workstations*</span>
+### <span id="ssh" style="color:#2E86C1 ">*SSH access to local workstations*</span>
 
 1. install [zerotier](https://www.zerotier.com/download/)
 2. ask Dr Guang Yang for oral zerotier access permission
@@ -93,7 +111,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 <br>
 
-## <span style="color:#2E86C1 ">*Building local environments*</span>
+## <span id="env" style="color:#2E86C1 ">*Building local environments*</span>
 * please refer to [building local environments](hands_on_tutorial.md) and [reinstallation of CUDA](cuda-installation.md)
 
 
@@ -102,7 +120,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 
-## <span style="color:#2E86C1 ">*GUI - `remote desktop` and `MATLAB`*</span>
+## <span id="rm" style="color:#2E86C1 ">*GUI - `remote desktop` and `MATLAB`*</span>
 * please refer to [remote_desktop_and_matlab](remote_desktop_and_matlab.md)
 
 
@@ -111,7 +129,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 
-## <span style="color:#2E86C1 ">*Office key holders*</span>
+## <span id="key" style="color:#2E86C1 ">*Office key holders*</span>
 
 |Name|key number|
 | :--- | :---: |
@@ -131,13 +149,21 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 
-## <span style="color:#2E86C1 ">*AC setting in our office*</span>
+## <span id="ac" style="color:#2E86C1 ">*AC setting in our office*</span>
 * please refer to [TOSHIBA_AC_setting_manual](TOSHIBA_AC_setting_manual.pdf)
 
 
 ---
 <br>
 <br>
+
+
+## <span id="journalclub" style="color:#2E86C1 ">*Journal Club*</span>
+
+|time|speaker|topic|readings <br> slides|
+| :--- | :---: | :---: | :---: |
+|2023-01-27|Ming Li|Learning in the Frequency Domain|[link](journal_club/2023Jan27_MingLi/)|
+|?|?|?|?|
 
 
 
