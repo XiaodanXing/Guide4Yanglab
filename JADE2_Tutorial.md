@@ -185,7 +185,7 @@ conda deactivate
 
 # <span style="color:#2E86C1 ">*Data&Code Transfer Between Our Local Workstation and JADE2*</span>
 
-* after you login in yanglab6, use this command to transfer data&code between our local workstation and JADE2
+* after you login yanglab6, use this command to transfer data&code between our local workstation and JADE2
 
     ``` python
     '''use command `pwd` to get the path
