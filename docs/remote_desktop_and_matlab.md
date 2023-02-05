@@ -3,7 +3,7 @@
 
 ## <span style="color:#2E86C1 ">*1 - Install xrdp on ubuntu*</span>
 
-1. download [install script](https://www.c-nergy.be/products.html) or use the [backup here](utils/xrdp-installer-1.4.6.sh)
+1. download [install script](https://www.c-nergy.be/products.html) or use the [backup here](../utils/xrdp-installer-1.4.6.sh)
 2. execute the following commands
     ``` bash
     cd ~
@@ -28,15 +28,15 @@
 
 For `Windows`
 1. search `remote desktop connection` by `win+s` <br>
-    <img src="images/remote_desktop_app.png" width="400" height="150">
+    <img src="../images/remote_desktop_app.png" width="400" height="150">
 2. key in zerotier IP address <br>
-    <img src="images/key_ip.png" width="250" height="150">
+    <img src="../images/key_ip.png" width="250" height="150">
 3. set resolution and colors <br>
-    <img src="images/set_resolution.png" width="190" height="200">
+    <img src="../images/set_resolution.png" width="190" height="200">
 4. follow on-screen protocol to login into your server account
     * type in your username and passwd, same as ssh connection
 5. you will see <br>
-    <img src="images/xrdp.png" width="300" height="190">
+    <img src="../images/xrdp.png" width="300" height="190">
 
 For `Mac`
 1. download [`remote desktop connection`](https://apps.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12)

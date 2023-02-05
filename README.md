@@ -54,8 +54,8 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 |yanglab2|Yang Nan| y.nan20@imperial.ac.uk |
 |yanglab3|Xiaodan Xing| x.xing@imperial.ac.uk |
 |yanglab4|Yingying Fang| y.fang@imperial.ac.uk |
-|yanglab5|Ming Li| ming.li@imperial.ac.uk |
-|yanglab6|Ming Li| ming.li@imperial.ac.uk |
+|yanglab5|-| - |
+|yanglab6|-| - |
 |yanglab7|Yinzhe Wu| yinzhe.wu18@imperial.ac.uk |
 |yanglab8|Fanwen Wang| fanwen.wang@imperial.ac.uk |
 |DistriM|Ming Li|ming.li@imperial.ac.uk|
@@ -66,7 +66,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 ### <span id="jade2" style="color:#2E86C1 ">*JADE2*</span>
-* For more instructions on how to use JADE2, please check [JADE tutorial](JADE2_Tutorial.md).
+* For more instructions on how to use JADE2, please check [JADE tutorial](docs/JADE2_Tutorial.md).
 ---
 <br>
 
@@ -79,10 +79,10 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 |Name|NAS mount path on local workstation|Administrator|Email|
 | :--- | :---: | :---: | ---: |
-|NAS1| /media/NAS00 |Ming Li| ming.li@imperial.ac.uk |
-|NAS2| /media/NAS01 <br> /media/NAS02 |Ming Li| ming.li@imperial.ac.uk |
-|NAS3| /media/NAS03 |Ming Li| ming.li@imperial.ac.uk |
-|NAS4| /media/NAS04 |Ming Li| ming.li@imperial.ac.uk |
+|NAS1| /media/NAS00 |-| - |
+|NAS2| /media/NAS01 <br> /media/NAS02 |-| - |
+|NAS3| /media/NAS03 |-| - |
+|NAS4| /media/NAS04 |-| - |
 
 
 * `Attention`: 
@@ -116,7 +116,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 <br>
 
 ## <span id="env" style="color:#2E86C1 ">*Building local environments*</span>
-* please refer to [building local environments](hands_on_tutorial.md) and [reinstallation of CUDA](cuda-installation.md)
+* please refer to [building local environments](docs/hands_on_tutorial.md) and [reinstallation of CUDA](docs/cuda-installation.md)
 
 
 ---
@@ -125,7 +125,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 
 ## <span id="rm" style="color:#2E86C1 ">*GUI - `remote desktop` and `MATLAB`*</span>
-* please refer to [remote_desktop_and_matlab](remote_desktop_and_matlab.md)
+* please refer to [remote_desktop_and_matlab](docs/remote_desktop_and_matlab.md)
 
 
 ---
@@ -154,7 +154,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 
 ## <span id="ac" style="color:#2E86C1 ">*AC setting in our office*</span>
-* please refer to [TOSHIBA_AC_setting_manual](TOSHIBA_AC_setting_manual.pdf)
+* please refer to [TOSHIBA_AC_setting_manual](docs/TOSHIBA_AC_setting_manual.pdf)
 
 
 ---

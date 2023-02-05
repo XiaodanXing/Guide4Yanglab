@@ -64,7 +64,7 @@
     source /jmain02/home/J2AD015/axf04/mxl76-axf04/ming/.profile
     ```
     you will see <br>
-    <img src="images/highlight.png" width="500" height="150">
+    <img src="../images/highlight.png" width="500" height="150">
 
 ---
 <br>
