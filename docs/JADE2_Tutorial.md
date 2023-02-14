@@ -325,7 +325,7 @@ squeue -l
 squeue -j your_job_id
 
 # to report the expected start time of pending jobs
-squeue --start
+squeue --start -j your_job_id
 ```
 
 <br>
