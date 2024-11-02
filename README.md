@@ -117,8 +117,8 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 ### <span id="ssh" style="color:#2E86C1 ">*SSH access to local workstations*</span>
 
-Zescaler:
-1. install [zescaler](https://uafiles.cc.ic.ac.uk/)
+Zscaler:
+1. install [zscaler](https://uafiles.cc.ic.ac.uk/)
 2. find the Zscaler client connector icon and selecting ‘Open Zscaler’
 3. log in as username@ic.ac.uk with your standard Imperial password
 4. Use ssh to connect to the workstation, please refer to `Teams` [*Path: Team notes*](https://imperiallondon.sharepoint.com/:o:/r/sites/AYangLab-WH/Shared%20Documents/General/Workstation%20Information/Workstations%20IP?d=w5bb99d8c2ed84f5db941abc50894f628&csf=1&web=1&e=zcrDjP)
