@@ -119,7 +119,7 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 Zscaler:
 1. install [zscaler](https://uafiles.cc.ic.ac.uk/)
-2. find the Zscaler client connector icon and selecting ‘Open Zscaler’
+2. find the Zscaler client connector icon and selecting `Open Zscaler`
 3. log in as username@ic.ac.uk with your standard Imperial password
 4. Use ssh to connect to the workstation, please refer to `Teams` [*Path: Team notes*](https://imperiallondon.sharepoint.com/:o:/r/sites/AYangLab-WH/Shared%20Documents/General/Workstation%20Information/Workstations%20IP?d=w5bb99d8c2ed84f5db941abc50894f628&csf=1&web=1&e=zcrDjP)
 5. For other questions, please refer to `Unified Access in Imperial` [*Path: Unified Access*](https://www.imperial.ac.uk/admin-services/ict/self-service/connect-communicate/remote-access/unified-access/)
@@ -139,8 +139,8 @@ Zerotier:
 
 1. Register a Trello account using imperial email in [Trello](https://trello.com/)
 2. Find project management in the template and create a workspace and board from this templete
-3. Change the workspace and board name to PhD students (Your Name)
-4. Share this workspace to Dr Guang Yang's email
+3. Change the workspace and board name to `PhD students (Your Name)`
+4. Share this board to Dr Guang Yang's email
 
 ---
 <br>
