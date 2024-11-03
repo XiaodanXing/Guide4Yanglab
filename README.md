@@ -47,26 +47,27 @@ If you have any questions, <span style="color:red; font-size:1em">*please post i
 
 ### <span style="color:#2E86C1 ">*Local Workstations*</span>
 
-|Name|Administrator|Email|
-| :--- | :---: | ---: |
-|yanglab0|Shiyi Wang <br> Zeyu Tang| s.wang22@imperial.ac.uk <br> zeyu.tang19@imperial.ac.uk |
-|yanglab |Jiahao Huang| j.huang21@imperial.ac.uk |
-|yanglab1|Ming Li| ming.li@imperial.ac.uk |
-|yanglab2|Yang Nan| y.nan20@imperial.ac.uk |
-|yanglab3|Xiaodan Xing| x.xing@imperial.ac.uk |
-|yanglab4|Yingying Fang| y.fang@imperial.ac.uk |
-|yanglab5|-| - |
-|yanglab6|-| - |
-|yanglab7|Yinzhe Wu| yinzhe.wu18@imperial.ac.uk |
-|yanglab8|Fanwen Wang| fanwen.wang@imperial.ac.uk |
-|yanglab9|-| - |
-|yanglab10|-| - |
-|yanglab11|-| - |
-|yanglab12|-| - |
-|yanglab13|-| - |
-|yanglab14|-| - |
-|yanglab15|-| - |
-|DistriM|Ming Li|ming.li@imperial.ac.uk|
+| Name      | Administrator |                      Email |
+|:----------|:-------------:|---------------------------:|
+| yanglab0  |  Shiyi Wang   |    s.wang22@imperial.ac.uk |
+| yanglab   | Jiahao Huang  |   j.huang21@imperial.ac.uk |
+| yanglab1  |    Ming Li    |     ming.li@imperial.ac.uk |
+| yanglab2  |   Yang Nan    |     y.nan20@imperial.ac.uk |
+| yanglab3  | Xiaodan Xing  |      x.xing@imperial.ac.uk |
+| yanglab4  | Yingying Fang |      y.fang@imperial.ac.uk |
+| yanglab5  |  Sheng Zhang  | sheng.zhang@imperial.ac.uk |
+| yanglab6  |  Sheng Zhang  | sheng.zhang@imperial.ac.uk |
+| yanglab7  |   Yinzhe Wu   | yinzhe.wu18@imperial.ac.uk |
+| yanglab8  |  Fanwen Wang  | fanwen.wang@imperial.ac.uk |
+| yanglab9  |       -       |                          - |
+| yanglab10 |       -       |                          - |
+| yanglab11 |       -       |                          - |
+| yanglab12 |       -       |                          - |
+| yanglab13 |       -       |                          - |
+| yanglab14 |       -       |                          - |
+| yanglab15 |       -       |                          - |
+| yanglab16 |       -       |                          - |
+| DistriM   |    Ming Li    |     ming.li@imperial.ac.uk |
 
 * check workstation IP in `Teams` [*Path: Files/Workstation Information*](https://teams.microsoft.com/_?culture=en-us&country=ww#/one/viewer/teamsSdk/https:~2F~2Fimperiallondon.sharepoint.com~2Fsites~2FAYangLab-WH~2FShared%20Documents~2FGeneral~2FWorkstation%20Information~2FWorkstations%20IP?threadId=19:f49b4c67b1894aff9ea2738829473de3@thread.tacv2&subEntityId=%257B%2522viewParams%2522%253A%2522id%253D%25252Fsites%25252FAYangLab%25252DWH%25252FShared%252520Documents%25252FGeneral%25252FWorkstation%252520Information%2526viewid%253D4a7c2a42%25252Da573%25252D433d%25252Da1ef%25252D21960f1d0619%2522%257D&baseUrl=https:~2F~2Fimperiallondon.sharepoint.com~2Fsites~2FAYangLab-WH&fileId=5bb99d8c-2ed8-4f5d-b941-abc50894f628&ctx=openFilePreview&viewerAction=view)
 * ask Dr Guang Yang for `Teams` permission
@@ -131,20 +132,34 @@ Zerotier:
    (provide your zerotier address e.g., 530c509607)
 4. login workstation (ask corresponding administrator	to help you set up new account)
 
+**We are planning to stop the support of ZeroTier in the near future, please use Zscaler instead!!**
+
 ---
 <br>
 <br>
 
 ## <span id="trello" style="color:#2E86C1 ">*Share the trello board*</span>
 
-1. Register a Trello account using imperial email in [Trello](https://trello.com/)
-2. Find project management in the template and create a workspace and board from this templete
-3. Change the workspace and board name to `PhD students (Your Name)`
-4. Share this board to Dr Guang Yang's email
+1. Register a Trello account using your email in [Trello](https://trello.com/).
+2. Create a new workspace in Trello.
+3. Find [Project Management](https://trello.com/templates/project-management/project-management-1x4Uql2u); create a board using this template.
+4. Change the workspace and board name to `PhD students (Your Name)` / `Postdoc (Your Name)`.
+5. Share this board to Dr Guang Yang's email.
 
 ---
 <br>
 <br>
+
+## <span id="trello" style="color:#2E86C1 ">*Transfer the ownership of Trello board*</span>
+
+For the old user of Trello, you may need to transfer the board ownership from Dr. Guang to yourself. 
+
+Please go to [How to transfer a trello board to a new account](./docs/How to Transfer a Trello Board to a New Account.md) for more details.
+
+---
+<br>
+<br>
+
 
 ## <span id="env" style="color:#2E86C1 ">*Building local environments*</span>
 * please refer to [building local environments](docs/hands_on_tutorial.md) and [reinstallation of CUDA](docs/cuda-installation.md)
@@ -164,41 +179,62 @@ Zerotier:
 <br>
 
 
-## <span id="key" style="color:#2E86C1 ">*Office key holders*</span>
+[//]: # (## <span id="key" style="color:#2E86C1 ">*Office key holders*</span>)
 
-|Name|key number|
-| :--- | :---: |
-|Ming Li|1|
-|Xiaodan Xing|1|
-|Yang Nan|1|
-|Jiahao Huang|1|
-|Yingying Fang|1|
-|Shiyi Wang|1|
-|Fanwen Wang|1|
-|Sheng Zhang|1|
-||8 keys in total|
+[//]: # ()
+[//]: # (|Name|key number|)
+
+[//]: # (| :--- | :---: |)
+
+[//]: # (|Ming Li|1|)
+
+[//]: # (|Xiaodan Xing|1|)
+
+[//]: # (|Yang Nan|1|)
+
+[//]: # (|Jiahao Huang|1|)
+
+[//]: # (|Yingying Fang|1|)
+
+[//]: # (|Shiyi Wang|1|)
+
+[//]: # (|Fanwen Wang|1|)
+
+[//]: # (|Sheng Zhang|1|)
+
+[//]: # (||8 keys in total|)
+
+[//]: # ()
+[//]: # (---)
+
+[//]: # (<br>)
+
+[//]: # (<br>)
 
 
----
-<br>
-<br>
+[//]: # (## <span id="ac" style="color:#2E86C1 ">*AC setting in our office*</span>)
+
+[//]: # (* please refer to [TOSHIBA_AC_setting_manual]&#40;docs/TOSHIBA_AC_setting_manual.pdf&#41;)
+
+[//]: # ()
+[//]: # ()
+[//]: # (---)
+
+[//]: # (<br>)
+
+[//]: # (<br>)
 
 
-## <span id="ac" style="color:#2E86C1 ">*AC setting in our office*</span>
-* please refer to [TOSHIBA_AC_setting_manual](docs/TOSHIBA_AC_setting_manual.pdf)
+[//]: # (## <span id="journalclub" style="color:#2E86C1 ">*Journal Club*</span>)
 
+[//]: # ()
+[//]: # (|time|speaker|topic|readings <br> slides|)
 
----
-<br>
-<br>
+[//]: # (| :--- | :---: | :---: | :---: |)
 
+[//]: # (|2023-01-27|Ming Li|Learning in the Frequency Domain|[link]&#40;journal_club/2023-01-27-Ming_Li-frequency/&#41;|)
 
-## <span id="journalclub" style="color:#2E86C1 ">*Journal Club*</span>
-
-|time|speaker|topic|readings <br> slides|
-| :--- | :---: | :---: | :---: |
-|2023-01-27|Ming Li|Learning in the Frequency Domain|[link](journal_club/2023-01-27-Ming_Li-frequency/)|
-|?|?|?|?|
+[//]: # (|?|?|?|?|)
 
 
 <br>
